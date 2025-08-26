@@ -1,0 +1,35 @@
+{
+  "name": "lazercursor",
+  "version": "1.0.0",
+  "description": "A smooth, physics-driven custom cursor inspired by osu!lazer.",
+  "main": "dist/lazercursor.umd.js",
+  "module": "dist/lazercursor.es.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src/styles/cursor.css"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "cursor",
+    "custom-cursor",
+    "react",
+    "typescript",
+    "osu",
+    "lazer"
+  ],
+  "author": "ZackMount",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=17"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "vite": "^5.0.0",
+    "@vitejs/plugin-react": "^4.2.0"
+  }
+}
