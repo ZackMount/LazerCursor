@@ -3,6 +3,7 @@
 A smooth, physics-driven custom cursor inspired by osu!lazer.
 Framework-agnostic core + React adapter.
 
+👉 Demo: http://www.zackmount.blog
 ---
 
 ## 🚀 Installation
