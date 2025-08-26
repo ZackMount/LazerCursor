@@ -37,7 +37,7 @@ import { LazerCursorEngine } from "lazercursor"
 import "lazercursor/styles/cursor.css"
 
 const el = document.createElement("div")
-el.className = "starcursor-cursor"
+el.className = "lazercursor-cursor"
 document.body.appendChild(el)
 
 new LazerCursorEngine(el, { useDamping: true, followerTauMs: 80 })
